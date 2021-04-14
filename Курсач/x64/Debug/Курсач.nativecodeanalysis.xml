@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\лабы\Курсач\Курсач\</FILEPATH>
+      <FILENAME>Курсач.cpp</FILENAME>
+      <LINE>356</LINE>
+      <COLUMN>9</COLUMN>
+    </SFA>
+    <DEFECTCODE>6031</DEFECTCODE>
+    <DESCRIPTION>Возвращаемое значение пропущено: "_getch".</DESCRIPTION>
+    <FUNCTION>getPassword</FUNCTION>
+    <DECORATED>?getPassword@@YA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PEBD_N@Z</DECORATED>
+    <FUNCLINE>333</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\лабы\Курсач\Курсач\</FILEPATH>
+      <FILENAME>Курсач.cpp</FILENAME>
+      <LINE>31</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Переменная "Account::access" не инициализирована. Всегда инициализируйте переменную-член (type.6).</DESCRIPTION>
+    <FUNCTION>Account::{ctor}</FUNCTION>
+    <DECORATED>??0Account@@QEAA@XZ</DECORATED>
+    <FUNCLINE>31</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>Account::access</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\лабы\Курсач\Курсач\</FILEPATH>
+      <FILENAME>Курсач.cpp</FILENAME>
+      <LINE>31</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Переменная "Account::role" не инициализирована. Всегда инициализируйте переменную-член (type.6).</DESCRIPTION>
+    <FUNCTION>Account::{ctor}</FUNCTION>
+    <DECORATED>??0Account@@QEAA@XZ</DECORATED>
+    <FUNCLINE>31</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>Account::role</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\лабы\Курсач\Курсач\</FILEPATH>
+      <FILENAME>Курсач.cpp</FILENAME>
+      <LINE>41</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Переменная "Boots::price" не инициализирована. Всегда инициализируйте переменную-член (type.6).</DESCRIPTION>
+    <FUNCTION>Boots::{ctor}</FUNCTION>
+    <DECORATED>??0Boots@@QEAA@XZ</DECORATED>
+    <FUNCLINE>41</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>Boots::price</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\лабы\Курсач\Курсач\</FILEPATH>
+      <FILENAME>Курсач.cpp</FILENAME>
+      <LINE>41</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Переменная "Boots::boot_size" не инициализирована. Всегда инициализируйте переменную-член (type.6).</DESCRIPTION>
+    <FUNCTION>Boots::{ctor}</FUNCTION>
+    <DECORATED>??0Boots@@QEAA@XZ</DECORATED>
+    <FUNCLINE>41</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>Boots::boot_size</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\лабы\Курсач\Курсач\</FILEPATH>
+      <FILENAME>Курсач.cpp</FILENAME>
+      <LINE>41</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Переменная "Boots::num_of_pairs" не инициализирована. Всегда инициализируйте переменную-член (type.6).</DESCRIPTION>
+    <FUNCTION>Boots::{ctor}</FUNCTION>
+    <DECORATED>??0Boots@@QEAA@XZ</DECORATED>
+    <FUNCLINE>41</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>Boots::num_of_pairs</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

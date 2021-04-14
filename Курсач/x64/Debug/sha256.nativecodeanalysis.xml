@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\лабы\Курсач\Курсач\</FILEPATH>
+      <FILENAME>sha256.cpp</FILENAME>
+      <LINE>35</LINE>
+      <COLUMN>33</COLUMN>
+    </SFA>
+    <DEFECTCODE>6297</DEFECTCODE>
+    <DESCRIPTION>Арифметическое переполнение:  сдвиг 32-битового значения с последующим приведением к 64-битовому значению.  Результаты могут не соответствовать ожидаемым значениям.</DESCRIPTION>
+    <FUNCTION>SHA256::transform</FUNCTION>
+    <DECORATED>?transform@SHA256@@IEAAXPEBEI@Z</DECORATED>
+    <FUNCLINE>26</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\лабы\Курсач\Курсач\</FILEPATH>
+      <FILENAME>sha256.cpp</FILENAME>
+      <LINE>35</LINE>
+      <COLUMN>33</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Арифметическое переполнение: использование оператора "&lt;&lt;" на байтовом значении 4 и приведение результата к байтовому значению 8. Приведите значение к более широкому типу перед вызовом оператора "&lt;&lt;", чтобы избежать переполнения (io.2).</DESCRIPTION>
+    <FUNCTION>SHA256::transform</FUNCTION>
+    <DECORATED>?transform@SHA256@@IEAAXPEBEI@Z</DECORATED>
+    <FUNCLINE>26</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\лабы\Курсач\Курсач\</FILEPATH>
+      <FILENAME>sha256.cpp</FILENAME>
+      <LINE>133</LINE>
+      <COLUMN>24</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Арифметическое переполнение: использование оператора "*" на байтовом значении 4 и приведение результата к байтовому значению 8. Приведите значение к более широкому типу перед вызовом оператора "*", чтобы избежать переполнения (io.2).</DESCRIPTION>
+    <FUNCTION>sha256</FUNCTION>
+    <DECORATED>?sha256@@YA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@Z</DECORATED>
+    <FUNCLINE>120</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

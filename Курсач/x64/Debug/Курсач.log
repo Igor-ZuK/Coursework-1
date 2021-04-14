@@ -1,0 +1,8 @@
+﻿  admin_func.cpp
+  core.cpp
+  files.cpp
+E:\лабы\Курсач\Курсач\files.cpp(12,16): warning C4244: инициализация: преобразование "std::streamoff" в "int", возможна потеря данных
+  search_func.cpp
+  Курсач.cpp
+  Создание кода...
+  Курсач.vcxproj -> E:\лабы\Курсач\Курсач\x64\Debug\Курсач.exe
